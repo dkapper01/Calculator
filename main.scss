@@ -1,0 +1,34 @@
+$primary-color: #333;
+$calculator-bg: #3C586D;
+$num-btn: #8995A5;
+$red-btn: #8995A5;
+$screen: #B6D1C2;
+
+* {
+  box-sizing: border-box;
+}
+.calculator {
+  background-color: $calculator-bg;
+  height: 600px;
+  margin: 0 auto;
+  width: 450px;
+  padding: 2px;
+  font-size: 300%;
+  .screen {
+    width: 100%;
+    height: 200px;
+    background-color: $screen;
+    padding: 10px;
+  }
+  .button {
+    background-color: $num-btn;
+    color: white;
+    height: 110px;
+    width: 110px;
+    margin: 2px;
+    display: inline-block;
+    text-align: center;
+    line-height: 110px;
+    // font-size: 300%;
+  }
+}

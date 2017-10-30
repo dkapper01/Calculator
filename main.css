@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box; }
+
+.calculator {
+  background-color: #3C586D;
+  height: 600px;
+  margin: 0 auto;
+  width: 450px;
+  padding: 2px;
+  font-size: 300%; }
+  .calculator .screen {
+    width: 100%;
+    height: 200px;
+    background-color: #B6D1C2;
+    padding: 10px; }
+  .calculator .button {
+    background-color: #8995A5;
+    color: white;
+    height: 110px;
+    width: 110px;
+    margin: 2px;
+    display: inline-block;
+    text-align: center;
+    line-height: 110px; }
+
+/*# sourceMappingURL=main.css.map */

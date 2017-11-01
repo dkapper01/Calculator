@@ -11,14 +11,14 @@ $screen: #B6D1C2;
 }
 .calculator {
   background-color: $calculator-bg;
-  height: 600px;
-  margin: 0 auto;
-  width: 450px;
+  height: auto;
+  margin: 50px auto 0 auto;
+  width: 407px;
   font-size: 300%;
   padding: 10px;
   .button {
     background-color: $num-btn;
-    border: 1px solid #6b587a; 
+    border: 1px solid #6b587a;
     color: white;
     height: 70px;
     width: 70px;
@@ -30,9 +30,13 @@ $screen: #B6D1C2;
   }
   .screen {
     width: 100%;
-    height: 200px;
+    height: 130px;
     background-color: $screen;
     padding: 10px;
+    font-size: 200%;
+    #anwser {
+      float: right;
+    }
   }
   .button-container {
     // border: 1px solid red;
@@ -42,7 +46,7 @@ $screen: #B6D1C2;
   }
   .math-operation-container {
     // border: 1px solid blue;
-    width: 200px;
+    width: 150px;
     height: auto;
     float: right;
     .lg-btn {

@@ -16,6 +16,7 @@ $screen: #B6D1C2;
   width: 407px;
   font-size: 300%;
   padding: 10px;
+  border-radius: 10px;
   .button {
     background-color: $num-btn;
     border: 1px solid #6b587a;
@@ -27,6 +28,9 @@ $screen: #B6D1C2;
     float: left;
     text-align: center;
     line-height: 70px;
+    border-radius: 10px 10px 30px 30px;
+    -moz-border-radius: 10px 10px 30px 30px;
+    -webkit-border-radius: 10px 10px 30px 30px;
   }
   .screen {
     width: 100%;
@@ -34,6 +38,7 @@ $screen: #B6D1C2;
     background-color: $screen;
     padding: 10px;
     font-size: 200%;
+    margin-bottom: 10px; 
     #anwser {
       float: right;
     }

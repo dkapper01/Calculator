@@ -9,19 +9,21 @@ $screen: #B6D1C2;
   margin: 0;
   padding: 0;
 }
-.calculator {
-  background-color: $calculator-bg;
+.center-calc {
   height: auto;
+  width: 318px;
   margin: 50px auto 0 auto;
-  width: 407px;
-  font-size: 300%;
+  overflow: hidden;
+  background-color: $calculator-bg;
   padding: 10px;
   border-radius: 10px;
-  .button {
+  .btn {
     background-color: $num-btn;
-    border: 1px solid #6b587a;
+    border: 2px solid #6b587a;
     color: white;
+    font-size: 300%;
     height: 70px;
+    cursor: pointer;
     width: 70px;
     margin: 2px;
     display: inline-block;
@@ -31,37 +33,24 @@ $screen: #B6D1C2;
     border-radius: 10px 10px 30px 30px;
     -moz-border-radius: 10px 10px 30px 30px;
     -webkit-border-radius: 10px 10px 30px 30px;
-  }
-  .screen {
-    width: 100%;
-    height: 130px;
-    background-color: $screen;
-    padding: 10px;
-    font-size: 200%;
-    margin-bottom: 10px; 
-    #anwser {
-      float: right;
-    }
-  }
-  .button-container {
-    // border: 1px solid red;
-    overflow: hidden;
-    width: 224px;
-    display: inline-block;
-  }
-  .math-operation-container {
-    // border: 1px solid blue;
-    width: 150px;
-    height: auto;
-    float: right;
-    .lg-btn {
-      width: 144px;
-    }
-    .ac {
-      background-color: $red-btn;
     }
     .math-o {
       background-color: #576573;
+      font-size: 175%;
     }
+    .lg-btn {
+      width: 144px;
+    }
+    .clear {
+      background-color: $red-btn;
+      font-size: 175%;
+    }
+    #display {
+      width: 100%;
+      height: 130px;
+      background-color: $screen;
+      padding: 10px;
+      font-size: 200%;
+      margin-bottom: 10px;
   }
 }

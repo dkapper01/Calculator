@@ -45,7 +45,15 @@ $screen: #B6D1C2;
       background-color: $red-btn;
       font-size: 175%;
     }
+    #upper_display {
+      width: 100%;
+      height: 30px;
+      background-color: $screen;
+      border-bottom: none;
+    }
     #display {
+      text-align: right; 
+      border-top: none;
       width: 100%;
       height: 130px;
       background-color: $screen;

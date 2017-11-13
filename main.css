@@ -35,7 +35,14 @@
   .center-calc .clear {
     background-color: #ba5658;
     font-size: 175%; }
+  .center-calc #upper_display {
+    width: 100%;
+    height: 30px;
+    background-color: #B6D1C2;
+    border-bottom: none; }
   .center-calc #display {
+    text-align: right;
+    border-top: none;
     width: 100%;
     height: 130px;
     background-color: #B6D1C2;

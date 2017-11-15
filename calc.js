@@ -16,6 +16,8 @@ function addDigit(dig) {
       current += dig; 
     }
     document.getElementById('display').value = current;
+  } else {
+    document.getElementById('display').value = "Too long"; 
   }
 }   
   

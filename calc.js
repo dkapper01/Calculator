@@ -1,18 +1,21 @@
 console.log("calculator working...");
 
 var memory = '0'; 
-var current = 0; 
+var current = '0'; 
 var Operation = 0; 
-var MAXLENGTH = 3;
+var MAXLENGTH = 5;
 
 document.getElementById('display').value = 0; 
 
 
-function addDigit(dig) {       
-  if(current === 0) {
-    current = dig; 
-  } else {
-    current += dig; 
+function addDigit(dig) {    
+  if(current.length < MAXLENGTH) {
+    if( eval(current) === 0) {
+      current = dig; 
+    } else {
+      current += dig; 
+    }
+    document.getElementById('display').value = current;
   }
-  document.getElementById('display').value = current;
-}
+}   
+  

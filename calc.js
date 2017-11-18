@@ -9,15 +9,13 @@ document.getElementById('display').value = 0;
 
 
 function addDigit(dig) {    
-  if(current.length < MAXLENGTH) {
-    if( eval(current) === 0) {
-      current = dig; 
-    } else {
-      current += dig; 
-    }
-    document.getElementById('display').value = current;
+  if( eval(current) === 0) {
+    current = dig; 
   } else {
-    document.getElementById('display').value = "Too long"; 
+    current += dig; 
   }
-}   
+  document.getElementById('display').value = current;
+} 
+  
+
   

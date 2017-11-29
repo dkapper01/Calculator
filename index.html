@@ -11,7 +11,7 @@
     <input type="text" id="display"><br>
     <input type="button" class="btn clear"  value="C" onclick="addDigit('c')">
     <input type="button" class="btn clear" value="CE" onclick="clearAll('ce')">
-    <input type="button" class="btn math-o"  value="2^x" onclick="mathOperator('2^x')">
+    <input type="button" class="btn math-o"  value="2^x" onclick="">
     <input type="button" class="btn math-o"  value="+" onclick="mathOperator('+')">
     <br />
     <input type="button" class="btn"  value="7" onclick="addDigit('7')">
@@ -27,12 +27,16 @@
     <input type="button" class="btn"  value="1" onclick="addDigit('1')">
     <input type="button" class="btn"  value="2" onclick="addDigit('2')">
     <input type="button" class="btn"  value="3" onclick="addDigit('3')">
-    <input type="button" class="btn math-o"  value="/" onclick="mathOperator(/)">
+    <input type="button" class="btn math-o"  value="/" onclick="">
     <br>
-    <input type="button" class="btn" id="keys" value="0" onclick="addDigit('0')">
+    <input type="button" class="btn" id="keys" value="0" onclick="addDigit(0)">
     <input type="button" class="btn" id="keys" value="." onclick="addDigit('.')">
-    <input type="button" class="btn lg-btn math-o" id="keys" value="=" onclick="()">
+    <input type="button" class="btn lg-btn math-o" id="keys" value="=" onclick="answer()">
   </form>
 </div>
+
+</body>
+<script src="calc.js"></script>
+</html>
 
 

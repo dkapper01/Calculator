@@ -15,3 +15,9 @@ function answer()  {
   x = eval(x); 
   display.value = x; 
 }
+
+function power() {
+  x = display.value; 
+  x = eval(x*x); 
+  display.value = x; 
+}

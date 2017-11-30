@@ -1,12 +1,15 @@
 
 <!DOCTYPE html>
 <html>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="main.css">
+<head>
+  <title>Calculator</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="main.css">
+  <script src="https://use.fontawesome.com/e5ab7ed963.js"></script>
+</head>
 <body>
 <div class="center-calc">
   <form>
-
     <input type="text" id="upper_display"><br>
     <input type="text" id="display"><br>
     <input type="button" class="btn clear"  value="C" onclick="addToScreen('c')">
@@ -33,6 +36,15 @@
     <input type="button" class="btn" id="keys" value="." onclick="addToScreen('.')">
     <input type="button" class="btn lg-btn math-o" id="keys" value="=" onclick="answer()">
   </form>
+</div>
+<div class="portfolio">
+  <a href="http://www.danielkapper.com">
+    <h2>
+      <i class="fa fa-arrow-circle-left" aria-hidden="true"> 
+        Go Back to Portfolio
+      </i>
+    </h2>
+  </a>
 </div>
 
 </body>
